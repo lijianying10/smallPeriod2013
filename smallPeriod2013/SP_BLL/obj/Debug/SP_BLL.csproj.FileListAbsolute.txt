@@ -1,0 +1,7 @@
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\SP_BLL\bin\Debug\SP_BLL.dll
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\SP_BLL\bin\Debug\SP_BLL.pdb
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\SP_BLL\obj\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\SP_BLL\obj\Debug\SP_BLL.dll
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\SP_BLL\obj\Debug\SP_BLL.pdb
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\SP_BLL\bin\Debug\sp_DAL.dll
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\SP_BLL\bin\Debug\sp_DAL.pdb

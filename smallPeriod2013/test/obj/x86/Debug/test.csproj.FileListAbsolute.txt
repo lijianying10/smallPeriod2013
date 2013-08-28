@@ -1,0 +1,10 @@
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\test\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\test\bin\Debug\test.exe
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\test\bin\Debug\test.pdb
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\test\bin\Debug\sp_DAL.dll
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\test\bin\Debug\sp_DAL.pdb
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\test\obj\x86\Debug\test.exe
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\test\obj\x86\Debug\test.pdb
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\test\obj\x86\Debug\test.Form1.resources
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\test\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\test\obj\x86\Debug\GenerateResource.write.1.tlog

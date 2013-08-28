@@ -1,0 +1,5 @@
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\sp_DAL\bin\Debug\sp_DAL.dll
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\sp_DAL\bin\Debug\sp_DAL.pdb
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\sp_DAL\obj\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\sp_DAL\obj\Debug\sp_DAL.dll
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\sp_DAL\obj\Debug\sp_DAL.pdb
