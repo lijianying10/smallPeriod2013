@@ -92,6 +92,7 @@
             this.btn_good.TabIndex = 5;
             this.btn_good.Text = "goods manage";
             this.btn_good.UseVisualStyleBackColor = true;
+            this.btn_good.Click += new System.EventHandler(this.btn_good_Click);
             // 
             // btn_system
             // 

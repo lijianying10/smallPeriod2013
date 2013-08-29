@@ -50,5 +50,10 @@ namespace smallPeriod2013
         {
             this.session.MainForm.Function_add_control(new subsubFunction.NewUser(this.session));
         }
+
+        private void btn_good_Click(object sender, EventArgs e)
+        {
+            this.session.MainForm.SubFunction_add_control(new SubFunction.goodsManage(this.session));
+        }
     }
 }

@@ -85,13 +85,13 @@ namespace SP_BLL
             {
                 SqlHealper sh = new SqlHealper();
                 sh.ExecuteCMD(
-                    "update tbl_U"+
+                    "update tbl_U "+
                     "set U_ID = '"+this.ID+"',"+
                     "U_Name = '"+this.Name+"',"+
                     "U_pwd = '"+this.Pwd+"',"+
                     "U_role = '"+this.Role+"',"+
-                    "U_Limit = '"+this.Limit+"',"+
-                    "where U_index = "+this.index.ToString()
+                    "U_Limit = '"+this.Limit+"'"+
+                    " where U_index = "+this.index.ToString()
                     );
             }
             catch

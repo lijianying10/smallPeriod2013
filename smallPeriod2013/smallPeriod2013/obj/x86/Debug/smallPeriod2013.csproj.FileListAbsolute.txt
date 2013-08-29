@@ -17,3 +17,6 @@ c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod
 c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\smallPeriod2013\obj\x86\Debug\smallPeriod2013.subsubFunction.Persional.resources
 c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\smallPeriod2013\obj\x86\Debug\smallPeriod2013.subsubFunction.PersionFind.resources
 c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\smallPeriod2013\obj\x86\Debug\smallPeriod2013.subsubFunction.NewUser.resources
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\smallPeriod2013\obj\x86\Debug\smallPeriod2013.SubFunction.goodsManage.resources
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\smallPeriod2013\obj\x86\Debug\smallPeriod2013.subsubFunction.goods.resources
+c:\documents and settings\1\my documents\visual studio 2010\Projects\smallPeriod2013\smallPeriod2013\obj\x86\Debug\smallPeriod2013.subsubFunction.goodsFind.resources

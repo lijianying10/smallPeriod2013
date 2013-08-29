@@ -10,17 +10,17 @@ using SP_BLL;
 
 namespace smallPeriod2013.subsubFunction
 {
-    public partial class PersionFind : UserControl
+    public partial class goodsFind : UserControl
     {
-        public SystemSession session;
-        public PersionFind(SystemSession ss)
+        SystemSession session;
+        public goodsFind(SystemSession ss)
         {
             this.session = ss;
             InitializeComponent();
         }
-
         private void databind()
         {
+            //M_ID, M_Classify, M_MakePrice, M_SellPrice, M_Unit, M_Memo
             DataTable DT = new DataTable();
             DT.Columns.Add("Value");
             DT.Columns.Add("Name");
@@ -31,62 +31,47 @@ namespace smallPeriod2013.subsubFunction
             DT.Rows.Add(dr);
 
             dr = DT.NewRow();
-            dr[0] = "P_ID"; dr[1] = "ID";
+            dr[0] = "M_ID"; dr[1] = "ID";
             DT.Rows.Add(dr);
 
             dr = DT.NewRow();
-            dr[0] = "P_Name"; dr[1] = "Name";
+            dr[0] = "M_Classify"; dr[1] = "Classify";
             DT.Rows.Add(dr);
 
             dr = DT.NewRow();
-            dr[0] = "P_Sex"; dr[1] = "Sex";
+            dr[0] = "M_MakePrice"; dr[1] = "MakePrice";
             DT.Rows.Add(dr);
 
             dr = DT.NewRow();
-            dr[0] = "P_Birthday"; dr[1] = "Birthday";
+            dr[0] = "M_SellPrice"; dr[1] = "SellPrice";
             DT.Rows.Add(dr);
 
             dr = DT.NewRow();
-            dr[0] = "P_Jobday"; dr[1] = "Jobday";
+            dr[0] = "M_Unit"; dr[1] = "Unit";
             DT.Rows.Add(dr);
 
             dr = DT.NewRow();
-            dr[0] = "P_Education"; dr[1] = "Education";
+            dr[0] = "M_Memo"; dr[1] = "Memo";
             DT.Rows.Add(dr);
 
-            dr = DT.NewRow();
-            dr[0] = "P_Department"; dr[1] = "Department";
-            DT.Rows.Add(dr);
-
-            dr = DT.NewRow();
-            dr[0] = "P_Duty"; dr[1] = "Duty";
-            DT.Rows.Add(dr);
-
-            dr = DT.NewRow();
-            dr[0] = "P_Jobtype"; dr[1] = "Jobtype";
-            DT.Rows.Add(dr); 
-
-            dr = DT.NewRow();
-            dr[0] = " "; dr[1] = " ";
-            DT.Rows.Add(dr);
             cb_type.ValueMember = "Value";
             cb_type.DisplayMember = "Name";
             cb_type.DataSource = DT;
         }
 
-        private void PersionFind_Load(object sender, EventArgs e)
+        private void goodsFind_Load(object sender, EventArgs e)
         {
-
+            this.databind();
         }
 
         private void btn_search_Click(object sender, EventArgs e)
         {
-            if (tb_condation.Text == "")
+            if (tb_input.Text == "")
             {
                 MessageBox.Show("Error input");
                 return;
             }
-            this.dataGridView1.DataSource = Persion.search("P_" + this.cb_type.SelectedItem.ToString(), this.tb_condation.Text);
+            this.dataGridView1.DataSource = MMM.search(this.cb_type.SelectedValue.ToString(), this.tb_input.Text);
         }
     }
 }
